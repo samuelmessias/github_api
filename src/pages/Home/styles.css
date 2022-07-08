@@ -1,0 +1,15 @@
+.main-container {
+    padding: 30px 40px;
+     
+}
+
+.title-container {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.content-container {
+    font-size: 24px;
+    font-weight: bolder;
+}

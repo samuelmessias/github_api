@@ -1,0 +1,87 @@
+.painel-container {
+  padding: 40px;
+  background-color: #D9D9D9;
+  
+}
+
+.painel-imagem {  
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+.painel-imagem img {
+  width: 100%;
+  height: 247px;
+  padding: 0;
+}
+
+.painel-content {
+  margin-top: 20px;  
+  height: 247px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 6px;
+
+  
+  
+}
+
+.painel-content h4 {
+  margin-bottom: 10px;
+}
+
+.painel-content p {
+  font-size: 12px;
+  height: 33px;
+  padding: 5px;
+  margin: 0 0 8px 0;
+  border: 1px solid #d9d9d9;
+
+  
+}
+
+.painel-content span {
+  color: #0029FF;
+}
+
+
+
+@media(min-width: 576px){
+  .painel-content p {
+    font-size: 16px;
+    
+  }
+}
+
+@media(min-width: 768px){
+  .painel-content {
+    margin: 0 10px;
+  }
+
+  .painel-content p {
+    font-size: 16px;
+    
+  }
+
+  
+}
+
+@media(min-width: 992px){
+  .painel-content {
+    margin: 10px;
+  }
+  
+  .painel-content p {
+    font-size: 20px;
+    padding: 0 10px;    
+   
+  }
+
+  .painel-content {
+    margin: 0;
+  }
+
+ 
+}
