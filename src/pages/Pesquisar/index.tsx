@@ -4,8 +4,7 @@ import Painel from 'components/Painel';
 import './styles.css';
 const Pesquisar = () => {
   return (
-    <>
-      <Navbar />
+    <>     
       <div className="main-container bg">
         <div className="card-container">
           <div className="car-title">
@@ -15,7 +14,7 @@ const Pesquisar = () => {
             <input placeholder="Usuário Github" />
           </div>
           <div>
-            <ButtonIcon />
+            <ButtonIcon text="Encontrar"/>
           </div>
         </div>
         <Painel />
