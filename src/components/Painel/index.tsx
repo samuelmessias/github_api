@@ -1,20 +1,11 @@
-import axios from 'axios';
-import { useEffect, useState } from 'react';
 import { Usuario } from 'types/users';
-import { BASE_URL } from 'util/requests';
 import './styles.css';
 
-const Painel = () => {
+type Props = {
+  usuario : Usuario;
+}
 
-  const [usuario, setProduct] = useState<Usuario>();
-    useEffect(() => {
-        axios.get(BASE_URL + "/users/acenelio")
-            .then(response => {
-                setProduct(response.data);
-            });
-    }, []);
-
-
+const Painel = ( {usuario} : Props) => {
 
   return (
     <div className="row painel-container">
